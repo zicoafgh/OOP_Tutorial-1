@@ -1,31 +1,11 @@
 
-class Student {
+public class Student extends Person {  
 
-    // Attributes
-    String name;
-    int age;
-    double gpa;
-
-    // Constructor
-    Student(String studentName, int studentAge, double studentGpa) {
-        name = studentName;
-        age = studentAge;
-        gpa = studentGpa;
+    public Student(String name, String id) {
+        super(name, id);
     }
 
-    // Methods
-    public void displayInfo() {
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
-        System.out.println("GPA: " + gpa);
-    }
-
-    public void study() {
-        System.out.println(name + " is studying.");
-    }
-
-    public void takeExam() {
-        System.out.println(name + " is taking exam.");
+    public void introduce() {
+        System.out.println("I am a student. Name: " + getName() + ", ID: " + getId());
     }
 }
-    
