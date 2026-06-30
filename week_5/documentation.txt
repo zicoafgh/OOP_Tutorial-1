@@ -1,0 +1,6 @@
+Why are variables declared as private? 
+So they can't be accessed or changed directly from outside the class , this protects the data from being modified in unintended or invalid ways (e.g., setting a negative CGPA).
+What happens if declared public? 
+Any other class could access or modify them directly, bypassing any validation logic and breaking encapsulation, which makes the code harder to maintain and more error-prone.
+Why use getters and setters? 
+They act as controlled access points , setters can validate input before assigning it (e.g., checking CGPA is between 0–4), and getters control how data is read, while keeping the internal fields hidden.
