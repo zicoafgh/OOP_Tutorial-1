@@ -8,7 +8,7 @@
 | Student Name | Zineb Afqir |
 | Student ID | 202505010522 |
 | Course | 202605F1923 / BIT1123 - Object Oriented Programming |
-| Repository | [OOP_Tutorial-1](https://github.com/zicoafgh/OOP_LAB_Spring-2026) |
+| Repository | [OOP_LAB_Spring-2026](https://github.com/zicoafgh/OOP_LAB_Spring-2026) |
 
 ## Course Description
 
