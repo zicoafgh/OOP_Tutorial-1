@@ -17,9 +17,10 @@ This Repository will include the practical work of Java completed in BIT1123 Obj
 ## Repository Structure
 
 ```text
-OOP_Tutorial-1/
+OOP_LAB_Spring-2026/
 |-- README.md
 |-- .gitignore
+|-- Self_Reflective_Report.pdf
 |-- week_1/
 |-- week_2/
 |-- week_3-4/
